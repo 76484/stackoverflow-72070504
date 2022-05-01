@@ -1,0 +1,11 @@
+<section>
+  <h1>User</h1>
+  <p>First Name: {{user.firstName}}</p>
+  <p>Last Name: {{user.lastName}}</p>
+
+  <h2>Foo</h2>
+  {{> "foo"}}
+
+  <h2>List</h2>
+  {{> "list" items=user.attributes}}
+</section>
